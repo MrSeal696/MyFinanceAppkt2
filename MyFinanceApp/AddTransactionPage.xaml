@@ -1,0 +1,15 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyFinanceApp.AddTransactionPage"
+             Title="Добавить">
+
+    <VerticalStackLayout Padding="20" Spacing="10">
+
+        <Entry Placeholder="Описание" />
+        <Entry Placeholder="Сумма" Keyboard="Numeric" />
+
+        <Button Text="Сохранить" />
+
+    </VerticalStackLayout>
+
+</ContentPage>
